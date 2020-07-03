@@ -1,0 +1,31 @@
+{
+  "name": "tecnico",
+  "plural": "tecnicos",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Apaterno": {
+      "type": "string",
+      "required": true
+    },
+    "Amaterno": {
+      "type": "string",
+      "required": true
+    },
+    "Tipo": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
